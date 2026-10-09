@@ -53,3 +53,10 @@ FastAPI + MongoDB backend for employee attendance tracking, manual regularizatio
 
 5. **Access Interactive API Docs**:
    - Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
+
+## Running Unit & Integration Tests
+
+Run the complete test suite:
+```bash
+python -m unittest discover tests
+```
